@@ -26,6 +26,9 @@ As seguintes tecnologias foram utilizadas na construção do projeto:
 
 ###  :computer: Servidor de Desenvolvimento
 
+Deploy no Heroku:
+- https://java-desafio-sefaz.herokuapp.com/
+
 Para clonar o repositório do git:
 1. git remote add origin https://github.com/josegustavo312/maven-desafio-sefaz.git
 2. git branch -M main
