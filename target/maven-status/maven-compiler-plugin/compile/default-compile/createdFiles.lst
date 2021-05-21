@@ -1,0 +1,9 @@
+br\com\datainfo\bean\BeanTelefone.class
+br\com\datainfo\connection\SingleConnection.class
+br\com\datainfo\dao\DaoUsuario.class
+br\com\datainfo\servlet\ServletUsuario.class
+br\com\datainfo\bean\BeanUsuario.class
+br\com\datainfo\servlet\ServletTelefone.class
+br\com\datainfo\servlet\ServletPesquisa.class
+br\com\datainfo\servlet\ServletPainel.class
+br\com\datainfo\dao\DaoTelefone.class

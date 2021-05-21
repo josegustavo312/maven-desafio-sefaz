@@ -1,0 +1,43 @@
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>ServletPainel</servlet-name>
+  	<display-name>ServletPainel</display-name>
+  	<description></description>
+  	<servlet-class>br.com.datainfo.servlet.ServletPainel</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>ServletPesquisa</servlet-name>
+  	<display-name>ServletPesquisa</display-name>
+  	<description></description>
+  	<servlet-class>br.com.datainfo.servlet.ServletPesquisa</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>ServletTelefone</servlet-name>
+  	<display-name>ServletTelefone</display-name>
+  	<description></description>
+  	<servlet-class>br.com.datainfo.servlet.ServletTelefone</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>ServletUsuario</servlet-name>
+  	<display-name>ServletUsuario</display-name>
+  	<description></description>
+  	<servlet-class>br.com.datainfo.servlet.ServletUsuario</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>ServletPainel</servlet-name>
+  	<url-pattern>/servletPainel</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ServletPesquisa</servlet-name>
+  	<url-pattern>/servletPesquisa</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ServletTelefone</servlet-name>
+  	<url-pattern>/servletTelefone</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ServletUsuario</servlet-name>
+  	<url-pattern>/servletUsuario</url-pattern>
+  </servlet-mapping>
+</web-app>
