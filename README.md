@@ -34,6 +34,10 @@ Para clonar o repositório do git:
 2. git branch -M main
 3. git push -u origin main
 
+Configuração do banco:
+- Servidor local: connection/SingleConnection.java
+- Servidor web: connection/SingleConnectionLocal.java
+
 Executando localmente na IDE Eclipse com o Apache Tomcat 9:
 1. Run As / Run on Server;
 2. Tomcat v9.0 Server at localhost;
